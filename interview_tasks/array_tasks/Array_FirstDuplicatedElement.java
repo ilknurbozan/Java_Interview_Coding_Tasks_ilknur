@@ -1,6 +1,6 @@
 package array_tasks;
 
-public class Array_FirstUniqueElement {
+public class Array_FirstDuplicatedElement {
 
     /*
     write a program that can find the first duplicated element from the array
