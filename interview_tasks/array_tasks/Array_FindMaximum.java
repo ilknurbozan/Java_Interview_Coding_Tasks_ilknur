@@ -15,8 +15,13 @@ public class Array_FindMaximum {
                 max = each;
             }
         }
-
+        System.out.println(max);
         return max;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {10, 9, 8, 7};
+        maxValue(arr);
     }
 
 
