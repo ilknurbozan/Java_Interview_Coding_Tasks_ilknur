@@ -27,7 +27,7 @@ public static String[] concatArray1(String[] arr1, String[] arr2){
     public static void main(String[] args) {
         String[] arr1= {"nw"};
         String[] arr2= {"a, l, m"};
-        ;
+
         concatArray1(arr1,arr2);
 
     }
