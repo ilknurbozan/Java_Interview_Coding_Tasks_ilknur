@@ -17,6 +17,24 @@ public class map_sorting {
         return map;
 
     }
+
+
+    public static void sortedMap2(Map<Integer, Integer> map){
+
+        Map<Integer, Integer>map2=new LinkedHashMap<>();
+        map=new LinkedHashMap<>();
+        for (Map.Entry<Integer, Integer> each:map.entrySet()){
+
+            map2.put(each.getValue(),each.getKey());
+            System.out.println(map2.keySet());
+        }
+        System.out.println(map2);
+        System.out.println(map);
+
+
+
+    }
+
     public static void main(String[] args) {
         Map<String, Integer> map = new LinkedHashMap<>();
         map.put("John", 12);
@@ -26,6 +44,11 @@ public class map_sorting {
         map.put("James", 11);
         map.put("Conor", 85);
         sortedMap(map);
+        Map<Integer, Integer> map2 = new LinkedHashMap<>();
+        map2.put(2,3);
+        map2.put(1,32);
+        map2.put(9,1);
+        sortedMap2(map2);
 
     }
 }

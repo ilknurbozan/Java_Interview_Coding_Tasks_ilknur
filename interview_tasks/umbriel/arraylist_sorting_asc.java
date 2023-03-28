@@ -25,12 +25,7 @@ public class arraylist_sorting_asc {
                }
 
                }
-
-
                System.out.println(list);
-
-
-
     }
 
     public static void main(String[] args) {

@@ -22,14 +22,8 @@ public class arraylist_sorting_desc {
                    }
 
                }
-
                }
-
-
                System.out.println(list);
-
-
-
     }
 
     public static void main(String[] args) {
